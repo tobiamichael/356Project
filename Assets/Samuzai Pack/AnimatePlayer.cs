@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class AnimatePlayer : MonoBehaviour
+public class AnimatePlayer : NetworkBehaviour
 {
     Animator charAnim;
     private bool walkState = false;
@@ -15,6 +16,11 @@ public class AnimatePlayer : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
         float mvY = Input.GetAxis("Horizontal");
         float mvX = Input.GetAxis("Vertical");
 
