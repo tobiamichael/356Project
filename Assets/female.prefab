@@ -737,6 +737,7 @@ GameObject:
   - component: {fileID: 114838833766830368}
   - component: {fileID: 114801695793193720}
   - component: {fileID: 114626205359903198}
+  - component: {fileID: 114615460594183726}
   m_Layer: 0
   m_Name: female
   m_TagString: Untagged
@@ -2000,6 +2001,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SPEED: 8
+--- !u!114 &114615460594183726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1711421091235204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce178692aa00f6f4bbe770314544c900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
 --- !u!114 &114626205359903198
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -69,6 +69,7 @@
      <Compile Include="Assets\Samuzai Pack\AnimatePlayer.cs" />
      <Compile Include="Assets\Samuzai Pack\SamuzaiMoveController.cs" />
      <Compile Include="Assets\Scripts\GunShoot.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\MoveToMouse.cs" />
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
      <Compile Include="Assets\Scripts\Patrolling.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Scripts\RotationController.cs" />
      <Compile Include="Assets\Scripts\SmartBot.cs" />
      <Compile Include="Assets\Scripts\TargetScript.cs" />
+     <Compile Include="Assets\Scripts\TestCannonBall.cs" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\greyRoadStudio\LowPolyTreePack\readme.txt" />
