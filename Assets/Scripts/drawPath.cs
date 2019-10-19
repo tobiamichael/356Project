@@ -6,7 +6,7 @@ public class drawPath : MonoBehaviour
 {
     Vector3[] plotline3d;
     private LineRenderer myline;
-    public int ballVelocity = 15;
+    public float ballVelocity;
 
     Rigidbody cannon3D;
     Vector3 velociiity;
@@ -21,13 +21,9 @@ public class drawPath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        velociiity.x = ballVelocity;
-        velociiity.y = 0;
-        velociiity.z = 0;
-        */
+        CannonScript cannonScript = this.GetComponent<CannonScript>();
 
-        
+        ballVelocity = cannonScript.ballVelocity;
 
         myline = this.GetComponent<LineRenderer>();
         cannon3D = this.GetComponent<Rigidbody>();
