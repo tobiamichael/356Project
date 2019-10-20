@@ -9,12 +9,14 @@ public class CannonballController : MonoBehaviour
     public float ballCurrentVelocity;
     public float ballCollisionVelocity;
     int counter = 0;
-    bool initialFlag = false;
+    //bool initialFlag = false;
     public GameObject cannonObject;
+    
     // Start is called before the first frame update
     void Start()
     {
         ballCurrentVelocity = Time.deltaTime;
+        
         
     }
 
@@ -38,6 +40,7 @@ public class CannonballController : MonoBehaviour
             {
                 impactDistance = Vector3.Distance(this.transform.position, cannonObject.transform.position);
                 ballCollisionVelocity = this.GetComponent<Rigidbody>().velocity.magnitude;
+                
             }
         }     
 

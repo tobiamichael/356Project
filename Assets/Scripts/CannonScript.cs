@@ -18,11 +18,13 @@ public class CannonScript : MonoBehaviour
 
     public bool activated;
     public float initialForce = 15;
+    private AudioSource cannonNoise;
 
     // Start is called before the first frame update
     void Start()
     {
         initialForce = 15;
+        cannonNoise = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -74,7 +76,7 @@ public class CannonScript : MonoBehaviour
             {
                 Rigidbody clone = Instantiate(cannonballInstance, transform.position, transform.rotation);
                 clone.AddForce(transform.forward * ballVelocity, ForceMode.Impulse);
-
+                cannonNoise.Play();
                 /*
                 var instantiatedProjectile : Rigidbody = Instantiate(projectile, transform.position, transform.rotation);
 

@@ -63,6 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\CannonRotationController.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\enemyRun.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\CameraControl.cs" />
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\FighterAnimationDemoFREE.cs" />
     <Compile Include="Assets\GameManager.cs" />
@@ -83,6 +87,7 @@
     <Compile Include="Assets\Scripts\CannonScript.cs" />
     <Compile Include="Assets\Scripts\DestroyCannonball.cs" />
     <Compile Include="Assets\Scripts\drawPath.cs" />
+    <Compile Include="Assets\Scripts\enemyShoot.cs" />
     <Compile Include="Assets\Scripts\GunShoot.cs" />
     <Compile Include="Assets\Scripts\MoveToMouse.cs" />
     <Compile Include="Assets\Scripts\NavAgentScript.cs" />
@@ -93,6 +98,7 @@
     <Compile Include="Assets\Scripts\SmartBot.cs" />
     <Compile Include="Assets\Scripts\TargetScript.cs" />
     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\Let's Go! Action Soundtrack\Read Me!.txt" />
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\greyRoadStudio\LowPolyTreePack\readme.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
