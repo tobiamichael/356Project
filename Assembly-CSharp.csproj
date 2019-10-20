@@ -66,6 +66,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     <Compile Include="Assets\enemyRun.cs" />
 >>>>>>> Stashed changes
@@ -73,6 +74,8 @@
 >>>>>>> Stashed changes
 =======
     <Compile Include="Assets\enemyRun.cs" />
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\CameraControl.cs" />
     <Compile Include="Assets\Fighter Pack Bundle FREE\Code\FighterAnimationDemoFREE.cs" />
